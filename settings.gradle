@@ -1,0 +1,4 @@
+rootProject.name = 'org.ledalizer'
+
+include ':CanvasLed'
+project(':CanvasLed').projectDir = new File(settingsDir, '../enzo/CanvasLed')
